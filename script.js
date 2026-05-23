@@ -34,7 +34,7 @@ form.addEventListener("submit", function (e) {
     message.style.color = "#970000";
     message.style.fontWeight = "bolder";
     message.style.fontSize = "1.5em";
-    return; // Detiene la ejecución si hay campos vacíos para validacióonfd del susuario
+    return; // Detiene la ejecución si hay campos vacíos para validacion del usuario
   } 
 
   // En el formulario si todo está bien, le mostramos al usuario o cliente un mensaje de "Enviando..."
