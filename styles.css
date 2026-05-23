@@ -1,5 +1,5 @@
 /* ==============================
-   VARIABLES & RESET
+VARIABLES & RESET
 ============================== */
 :root {
   --primary: #1e40af;
@@ -61,7 +61,7 @@ img {
 }
 
 /* ==============================
-   LAYOUT
+LAYOUT
 ============================== */
 .container {
   width: 100%;
@@ -113,7 +113,7 @@ img {
 }
 
 /* ==============================
-   Botones
+Botones
 ============================== */
 .btn {
   display: inline-flex;
@@ -255,7 +255,7 @@ img {
 }
 
 /* ==============================
-   Cabecera
+Cabecera
 ============================== */
 .hero {
   position: relative;
@@ -358,7 +358,7 @@ img {
 }
 
 /* ==============================
-   CARDS / GRID
+  CARDS / GRID
 ============================== */
 
 /* Mobile: Una columna por defecto */
@@ -562,7 +562,7 @@ img {
 }
 
 /* ==============================
-   FOOTER
+  FOOTER
 ============================== */
 .footer {
   background: var(--dark);
@@ -788,7 +788,7 @@ img {
 }
 
 /* ======================================================
-   RESPONSIVE — Laptop (min-width: 1280px)
+RESPONSIVE — Laptop (min-width: 1280px)
 ====================================================== */
 @media (min-width: 1280px) {
   .container {
