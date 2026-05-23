@@ -45,14 +45,14 @@ form.addEventListener("submit", function (e) {
   // Conexión de mail utilizando EmailJ para que lo validen
   emailjs.sendForm('service_a40daaf', 'template_h6yg2c9', this)
     .then(function() {
-      // Éxito
+      // si el mensaje tiene éxito
       message.textContent = "¡Formulario enviado correctamente!";
       message.style.color = "#004d1c";
       message.style.fontWeight = "bolder";
       message.style.fontSize = "1.5em";
       form.reset();
     }, function(error) {
-      // Error
+      // si el mensaje tiene Error
       message.textContent = "Hubo un error al enviar el mensaje. Intenta de nuevo.";
       message.style.color = "#970000";
       console.log('Error de EmailJS:', error);
